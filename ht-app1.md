@@ -7,6 +7,7 @@ has_toc: false
 ---
 
 # How to Application 1
+{:.no_toc }
 
 ## Contents
 {: .no_toc .text-delta }
