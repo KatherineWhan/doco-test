@@ -1,5 +1,5 @@
 ---
-title: Samples
+title: Markdown Samples
 has_children: true
 nav_order: 3
 ---
@@ -87,8 +87,8 @@ Would look like this:
 
 As Kanye West said:
 
-    > We're living the future so
-    > the present is our past.
+> We're living the future so
+> the present is our past.
 
 ## Inline code
 
@@ -170,29 +170,10 @@ You can create tables by assembling a list of words and dividing them with hyphe
 
 Would become:
 
-First Header	Second Header
-Content from cell 1	Content from cell 2
-Content in the first column	Content in the second column
-
-## SHA references
-
-Any reference to a commit’s SHA-1 hash will be automatically converted into a link to that commit on GitHub.
-
-    16c999e8c71134401a78d4d46435517b2271d6ac
-    mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
-    mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
-
-## Issue references within a repository
-
-Any number that refers to an Issue or Pull Request will be automatically converted into a link.
-
-    #1
-    mojombo#1
-    mojombo/github-flavored-markdown#1
-
-## Username @mentions
-
-Typing an `@` symbol, followed by a username, will notify that person to come and view the comment. This is called an “@mention”, because you’re mentioning the individual. You can also @mention teams within an organization.
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 ## Automatic linking for URLs
 
@@ -202,16 +183,6 @@ Any URL (like `http://www.github.com/`) will be automatically converted into a c
 
 Any word wrapped with two tildes (like `~~this~~`) will appear crossed out.
 
-## Emoji
+For example:
 
-GitHub supports emoji!
-
-You can add emoji to your writing by typing `:EMOJICODE:`.
-
-    @octocat :+1: This PR looks great - it's ready to merge! :shipit:
-
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
-
-Typing `:` will bring up a list of suggested emoji. The list will filter as you type, so once you find the emoji you're looking for, press Tab or Enter to complete the highlighted result.
-
-For a full list of available emoji and codes, check out emoji-cheat-sheet.com.
+~~text~~
