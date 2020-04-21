@@ -269,3 +269,11 @@ Any word wrapped with two tildes (like `~~this~~`) will appear crossed out.
 For example:
 
 ~~text~~
+
+## Emojis
+
+Once the jemoji plugin has been added to the config.yml file, any emojis can be added to the page.
+
+I give this plugin two :+1:!
+
+The light bulb could be handy for notes - :bulb:
