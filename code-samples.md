@@ -133,7 +133,6 @@ Relative links are easier for users who clone your repository. Absolute links ma
     As Kanye West said:
 
     > We're living the future so
-    >
     > the present is our past.
     
 Would look like this:
@@ -141,7 +140,6 @@ Would look like this:
 As Kanye West said:
 
 > We're living the future so
->
 > the present is our past.
 
 ## Inline code
@@ -277,3 +275,5 @@ Once the jemoji plugin has been added to the config.yml file, any emojis can be 
 I give this plugin two :+1:!
 
 The light bulb could be handy for notes - :bulb:
+
+:-1: :envelope: :link: :warning: :exclamation: :question: :star: :mag_right: :mag: :unlock: :lock: :negative_squared_cross_mark: :white_check_mark: 
