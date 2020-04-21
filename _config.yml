@@ -6,5 +6,6 @@ aux_links:
     - "//github.com/KatherineWhan/doco-test"
 
 # Add this to enable emojis
-plugins: - jemoji
+plugins: 
+  - jemoji
 
