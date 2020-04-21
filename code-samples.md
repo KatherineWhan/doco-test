@@ -29,6 +29,27 @@ You can even [link to Google!](http://google.com)
 
     _You **can** combine them_
     
+For example:
+
+*This text will be italic*
+
+_This will also be italic_
+
+**This text will be bold**
+
+__This will also be bold__
+
+_You **can** combine them_
+
+There's a horizontal rule below this.
+
+* * *
+
+the code is:
+
+    * * *
+    
+
 ## Lists
 
 ### Unordered
@@ -52,6 +73,36 @@ You can create a nested list by indenting one or more list items below another i
     1. First list item
        - First nested list item
          - Second nested list item
+         
+    - first item
+    - second item
+      - indent 1
+      - indent 2
+    - third item
+    
+Would be:
+ 1. First list item
+       - First nested list item
+         - Second nested list item
+         
+- first item
+- second item
+  - indent 1
+  - indent 2
+- third item
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
 
 ## Images
 
@@ -82,6 +133,7 @@ Relative links are easier for users who clone your repository. Absolute links ma
     As Kanye West said:
 
     > We're living the future so
+    >
     > the present is our past.
     
 Would look like this:
@@ -89,6 +141,7 @@ Would look like this:
 As Kanye West said:
 
 > We're living the future so
+>
 > the present is our past.
 
 ## Inline code
@@ -99,6 +152,10 @@ As Kanye West said:
  Would look like this:
  
  I think you should use an `<addr>` element here instead.
+ 
+ ```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
  
 ## GitHub Flavoured Markdown
 
@@ -154,6 +211,13 @@ git commit
     - [x] this is a complete item
     - [ ] this is an incomplete item
 
+this code displays as:
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
 If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. It also works in Pull Requests!
 
 If a task list item description begins with a parenthesis, you'll need to escape it with \:
@@ -175,6 +239,24 @@ First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
+
+this is another table style:
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+the code is:
+
+    | head1        | head two          | three |
+    |:-------------|:------------------|:------|
+    | ok           | good swedish fish | nice  |
+    | out of stock | good and plenty   | nice  |
+    | ok           | good `oreos`      | hmm   |
+    | ok           | good `zoute` drop | yumm  |
 
 ## Automatic linking for URLs
 
