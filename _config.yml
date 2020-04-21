@@ -4,3 +4,7 @@ remote_theme: pmarsceill/just-the-docs
 aux_links:
   "View on GitHub":
     - "//github.com/KatherineWhan/doco-test"
+
+# Add this to enable emojis
+plugins: - jemoji
+
